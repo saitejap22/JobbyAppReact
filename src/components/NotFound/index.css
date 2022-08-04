@@ -1,0 +1,49 @@
+.notFound-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  min-height: 90vh;
+  padding-top: 40px;
+}
+.not-found-img {
+  height: 300px;
+  width: 350px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    height: 400px;
+    width: 450px;
+  }
+}
+.nf-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.nf-heading {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 600px;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .nf-heading {
+    font-size: 30px;
+  }
+}
+.nf-text {
+  font-family: roboto;
+  font-size: 14px;
+
+  color: white;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .nf-text {
+    font-size: 17px;
+  }
+}
